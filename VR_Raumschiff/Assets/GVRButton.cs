@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.Assertions.Must;
 using System.Threading;
+using UnityEngine.SceneManagement;
 
 public class GVRButton : MonoBehaviour
 {
@@ -48,5 +49,15 @@ public class GVRButton : MonoBehaviour
         gvrStatus = false;
         gvrTimer = 0;
         imgCircle.fillAmount = 0;
+    }
+
+    public void SceneToCodePad()
+    {
+        SceneManager.LoadScene("CodepadScene", LoadSceneMode.Single);
+    }
+
+    public void SceneToSteuerbord()
+    {
+        SceneManager.LoadScene("Steuerbord", LoadSceneMode.Single);
     }
 }

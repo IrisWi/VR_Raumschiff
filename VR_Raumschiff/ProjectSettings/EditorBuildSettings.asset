@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Flur.unity
     guid: 5b37b55bba2fc864b90c04c2ad43722b
+  - enabled: 1
+    path: Assets/Scenes/CodepadScene.unity
+    guid: 89b89191a678f5347a5da19023771f3d
   m_configObjects: {}

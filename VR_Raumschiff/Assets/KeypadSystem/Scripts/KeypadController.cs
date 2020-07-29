@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class KeypadController : MonoBehaviour
 {
     public DoorController door;
     public string password;
     public int passwordLimit;
-    public Text passwordText;
+    //public Text passwordText;
+    public TextMeshProUGUI passwordText;
 
     [Header("Audio")]
     public AudioSource audioSource;
@@ -44,7 +46,7 @@ public class KeypadController : MonoBehaviour
     public void Clear()
     {
         passwordText.text = "";
-        passwordText.color = Color.white;
+        passwordText.color = Color.black;
     }
 
     private void Enter()
@@ -57,7 +59,7 @@ public class KeypadController : MonoBehaviour
                 audioSource.PlayOneShot(correctSound);
 
             passwordText.color = Color.green;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Flur", LoadSceneMode.Single);
             //StartCoroutine(waitAndClear());
         }
         else

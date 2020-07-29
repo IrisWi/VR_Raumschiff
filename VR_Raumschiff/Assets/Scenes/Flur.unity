@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.10204237, g: 0.13247994, b: 0.1220452, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2121,6 +2121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!114 &151962102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2133,6 +2135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!1 &168639843
 GameObject:
   m_ObjectHideFlags: 0
@@ -3212,6 +3216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!114 &321097931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3224,6 +3230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!1 &342469585
 GameObject:
   m_ObjectHideFlags: 0
@@ -3974,6 +3982,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!1001 &408670824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4145,6 +4155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!114 &462638748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4157,6 +4169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!1 &473126626
 GameObject:
   m_ObjectHideFlags: 0
@@ -4432,6 +4446,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be38d8b555aae2418fba889d5408bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  C5_Note: {fileID: 0}
+  D_Note: {fileID: 0}
+  E_Note: {fileID: 0}
+  F_Note: {fileID: 0}
+  G_Note: {fileID: 0}
+  A_Note: {fileID: 0}
+  H_Note: {fileID: 0}
+  C6_Note: {fileID: 0}
 --- !u!4 &496301899
 Transform:
   m_ObjectHideFlags: 0
@@ -10918,7 +10940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1279141227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11616,6 +11638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!114 &1327331469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11628,6 +11652,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!1 &1327483748
 GameObject:
   m_ObjectHideFlags: 0
@@ -12719,6 +12745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!114 &1533533067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12731,6 +12759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6067301e38385174aaa6c8b8966a1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 0
 --- !u!1 &1538208253
 GameObject:
   m_ObjectHideFlags: 0

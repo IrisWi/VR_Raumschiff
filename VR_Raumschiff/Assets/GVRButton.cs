@@ -56,8 +56,29 @@ public class GVRButton : MonoBehaviour
         SceneManager.LoadScene("CodepadScene", LoadSceneMode.Single);
     }
 
+    public void SceneToKeyBoard()
+    {
+        SceneManager.LoadScene("KeyboardScene", LoadSceneMode.Single);
+    }
+
     public void SceneToSteuerbord()
     {
         SceneManager.LoadScene("Steuerbord", LoadSceneMode.Single);
+    }
+    public void SceneToFlur()
+    {
+        SceneManager.LoadScene("Flur", LoadSceneMode.Single);
+    }
+    public void SceneToAbstellkammer()
+    {
+        SceneManager.LoadScene("Steuerbord", LoadSceneMode.Single);
+    }
+    public void SceneToSchlafraum()
+    {
+        SceneManager.LoadScene("Schlafraum", LoadSceneMode.Single);
+    }
+    public void SceneToWeltall()
+    {
+        SceneManager.LoadScene("Schlafraum", LoadSceneMode.Single);
     }
 }

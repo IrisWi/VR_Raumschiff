@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CodepadScene.unity
     guid: 89b89191a678f5347a5da19023771f3d
+  - enabled: 1
+    path: Assets/Scenes/KeyboardScene.unity
+    guid: 3cbc8fa629ec4044983b114d228298ea
+  - enabled: 1
+    path: Assets/Scenes/Schlafraum.unity
+    guid: aa9d0da42c9314e4ea5930c55297e135
+  - enabled: 1
+    path: Assets/Scenes/Abstellkammer.unity
+    guid: 4dd9134cdd393264dac5bc4d0c801f2a
   m_configObjects: {}

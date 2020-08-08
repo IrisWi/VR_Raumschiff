@@ -79,6 +79,6 @@ public class GVRButton : MonoBehaviour
     }
     public void SceneToWeltall()
     {
-        SceneManager.LoadScene("Schlafraum", LoadSceneMode.Single);
+        SceneManager.LoadScene("Weltall", LoadSceneMode.Single);
     }
 }

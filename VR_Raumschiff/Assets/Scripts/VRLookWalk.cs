@@ -9,6 +9,7 @@ public class VRLookWalk : MonoBehaviour
     public float toggleAngle = 30.0f;
     public float speed = 3.0f;
     public bool moveForward;
+    public AudioSource footsteps;
 
     private CharacterController cc;
 
@@ -24,10 +25,13 @@ public class VRLookWalk : MonoBehaviour
         if (vrCamera.eulerAngles.x >= toggleAngle && vrCamera.eulerAngles.x < 90.0f)
         {
             moveForward = true;
+            if(!footsteps.isPlaying)
+            footsteps.Play();
         }
         else
         {
             moveForward = false;
+            footsteps.Stop();
         }
 
         if (moveForward)
@@ -35,6 +39,7 @@ public class VRLookWalk : MonoBehaviour
             Vector3 forward = vrCamera.TransformDirection(Vector3.forward);
 
             cc.SimpleMove(forward * speed);
+            
         }
     }
 }

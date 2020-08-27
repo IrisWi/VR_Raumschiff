@@ -71,7 +71,7 @@ public class GVRButton : MonoBehaviour
     }
     public void SceneToAbstellkammer()
     {
-        SceneManager.LoadScene("Steuerbord", LoadSceneMode.Single);
+        SceneManager.LoadScene("Abstellkammer", LoadSceneMode.Single);
     }
     public void SceneToSchlafraum()
     {

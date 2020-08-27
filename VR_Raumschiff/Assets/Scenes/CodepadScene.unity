@@ -121,84 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &127537572 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6785095817963109550, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &127537574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127537572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 127537578}
-          m_MethodName: GvrOn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 127537578}
-          m_MethodName: GvrOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &127537578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127537572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgCircle: {fileID: 136560309}
-  GVRClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1924321981}
-        m_MethodName: SendKey
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  totalTime: 2
-  gvrTimer: 0
 --- !u!1 &136560308
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,15 +519,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 252884658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 252884663}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 252884666}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -615,8 +537,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 252884666}
-        m_MethodName: Play
+      - m_Target: {fileID: 252884663}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -854,7 +776,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 265929092}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
@@ -1029,15 +951,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 282618794}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 282618801}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 282618802}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1047,8 +969,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 282618802}
-        m_MethodName: Play
+      - m_Target: {fileID: 282618801}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1437,15 +1359,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 326595645}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 326595650}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 326595653}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1455,8 +1377,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 326595653}
-        m_MethodName: Play
+      - m_Target: {fileID: 326595650}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1744,7 +1666,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &493617320
 GameObject:
@@ -2183,15 +2105,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 701125791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 701125796}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 701125799}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2201,8 +2123,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 701125799}
-        m_MethodName: Play
+      - m_Target: {fileID: 701125796}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2445,96 +2367,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &710205865 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7360808213467063333, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &710205867 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8477019185025806080, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710205865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcf722d048ac3c499a8083551c86ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &710205868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710205865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 710205871}
-          m_MethodName: GvrOn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 710205871}
-          m_MethodName: GvrOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &710205871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710205865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgCircle: {fileID: 136560309}
-  GVRClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 710205867}
-        m_MethodName: SendKey
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  totalTime: 2
-  gvrTimer: 0
 --- !u!1 &714077891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,15 +2691,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 773201430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 773201435}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 773201438}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2877,8 +2709,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 773201438}
-        m_MethodName: Play
+      - m_Target: {fileID: 773201435}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3154,15 +2986,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 797016487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 797016492}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 797016495}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3172,8 +3004,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 797016495}
-        m_MethodName: Play
+      - m_Target: {fileID: 797016492}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3605,15 +3437,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 876659777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 876659782}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 876659785}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3623,8 +3455,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 876659785}
-        m_MethodName: Play
+      - m_Target: {fileID: 876659782}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4242,96 +4074,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030490206}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1110828064 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8890633508863378924, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1110828066 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2246209821681984296, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110828064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcf722d048ac3c499a8083551c86ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1110828067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110828064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgCircle: {fileID: 136560309}
-  GVRClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1110828066}
-        m_MethodName: SendKey
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  totalTime: 2
-  gvrTimer: 0
---- !u!114 &1110828070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110828064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1110828067}
-          m_MethodName: GvrOn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1110828067}
-          m_MethodName: GvrOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1151900612
 GameObject:
   m_ObjectHideFlags: 0
@@ -4613,15 +4355,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1176534076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1176534081}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 1176534084}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4631,8 +4373,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1176534084}
-        m_MethodName: Play
+      - m_Target: {fileID: 1176534081}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5034,7 +4776,7 @@ RectTransform:
   m_Children:
   - {fileID: 1631631162}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5293,15 +5035,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1223648580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1223648585}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 1223648588}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5311,8 +5053,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1223648588}
-        m_MethodName: Play
+      - m_Target: {fileID: 1223648585}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6269,15 +6011,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1298840266}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1298840271}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 1298840274}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6287,8 +6029,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1298840274}
-        m_MethodName: Play
+      - m_Target: {fileID: 1298840271}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6595,307 +6337,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316731624}
   m_CullTransparentMesh: 0
---- !u!1001 &1392804188
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3266424877598374829, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.2379993
-      objectReference: {fileID: 0}
-    - target: {fileID: 5035663528787694407, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.007000685
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -18.805
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.409
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 8.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6561236814349586084, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_Name
-      value: Keypad (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6561236814349586084, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799646515135638243, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: door
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799646515135638243, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: password
-      value: 1234
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799646515135638243, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5285916142820283457, guid: a8ee8a0a877c4e64fa1915f8445c3110, type: 3}
-    - {fileID: 2246209821681984296, guid: a8ee8a0a877c4e64fa1915f8445c3110, type: 3}
-    - {fileID: 6049725951583818543, guid: a8ee8a0a877c4e64fa1915f8445c3110, type: 3}
-    - {fileID: 8077107878953464652, guid: a8ee8a0a877c4e64fa1915f8445c3110, type: 3}
-    - {fileID: 1465293074632090435, guid: a8ee8a0a877c4e64fa1915f8445c3110, type: 3}
-    - {fileID: 3375377921126951524, guid: a8ee8a0a877c4e64fa1915f8445c3110, type: 3}
-    - {fileID: 3812110950158002762, guid: a8ee8a0a877c4e64fa1915f8445c3110, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: a8ee8a0a877c4e64fa1915f8445c3110, type: 3}
---- !u!1 &1392804189 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7360808213467063333, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1392804188}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1392804190 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8477019185025806080, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1392804188}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392804189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcf722d048ac3c499a8083551c86ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1392804191 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6561236814349586084, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1392804188}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1392804192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392804191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgCircle: {fileID: 136560309}
-  GVRClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1392804191}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  totalTime: 2
-  gvrTimer: 0
---- !u!114 &1392804193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392804191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1392804192}
-          m_MethodName: GvrOn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1392804192}
-          m_MethodName: GvrOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1392804194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392804191}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62afc80dfbfcbaf42bfece5c873e3624, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1392804203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392804189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgCircle: {fileID: 136560309}
-  GVRClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1392804190}
-        m_MethodName: SendKey
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  totalTime: 2
-  gvrTimer: 0
---- !u!114 &1392804204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392804189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1392804203}
-          m_MethodName: GvrOn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1392804203}
-          m_MethodName: GvrOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &1432633341
 GameObject:
   m_ObjectHideFlags: 0
@@ -7220,15 +6661,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1457851190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1457851195}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 1457851198}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7238,8 +6679,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1457851198}
-        m_MethodName: Play
+      - m_Target: {fileID: 1457851195}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7503,186 +6944,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524447492}
   m_CullTransparentMesh: 0
---- !u!1 &1551192982 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4828696304200502385, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1551192984 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8077107878953464652, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551192982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcf722d048ac3c499a8083551c86ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1551192985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551192982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgCircle: {fileID: 136560309}
-  GVRClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1551192984}
-        m_MethodName: SendKey
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  totalTime: 2
-  gvrTimer: 0
---- !u!114 &1551192988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551192982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1551192985}
-          m_MethodName: GvrOn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1551192985}
-          m_MethodName: GvrOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!1 &1568109307 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2234501075736774405, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1568109309 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3812110950158002762, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568109307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcf722d048ac3c499a8083551c86ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1568109310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568109307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgCircle: {fileID: 136560309}
-  GVRClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1568109309}
-        m_MethodName: SendKey
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  totalTime: 2
-  gvrTimer: 0
---- !u!114 &1568109313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568109307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1568109310}
-          m_MethodName: GvrOn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1568109310}
-          m_MethodName: GvrOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1001 &1589824452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7914,15 +7175,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1611292829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1611292834}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 1611292837}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7932,8 +7193,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1611292837}
-        m_MethodName: Play
+      - m_Target: {fileID: 1611292834}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8290,96 +7551,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651127002}
   m_CullTransparentMesh: 0
---- !u!1 &1672167224 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2386215013405507269, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1672167226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672167224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1672167230}
-          m_MethodName: GvrOn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1672167230}
-          m_MethodName: GvrOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1672167227 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5285916142820283457, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672167224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcf722d048ac3c499a8083551c86ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1672167230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672167224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgCircle: {fileID: 136560309}
-  GVRClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1672167227}
-        m_MethodName: SendKey
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  totalTime: 2
-  gvrTimer: 0
 --- !u!1 &1690869291
 GameObject:
   m_ObjectHideFlags: 0
@@ -8554,96 +7725,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13de8c2e6c0eb34db958f67a2f4f4d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1756478061 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8614123557777700520, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1756478063 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1465293074632090435, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756478061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcf722d048ac3c499a8083551c86ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1756478064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756478061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1756478067}
-          m_MethodName: GvrOn
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1756478067}
-          m_MethodName: GvrOff
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
---- !u!114 &1756478067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756478061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgCircle: {fileID: 136560309}
-  GVRClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1756478063}
-        m_MethodName: SendKey
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  totalTime: 2
-  gvrTimer: 0
 --- !u!1 &1789067519
 GameObject:
   m_ObjectHideFlags: 0
@@ -8691,127 +7772,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &1924321980
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3266424877598374829, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.2379993
-      objectReference: {fileID: 0}
-    - target: {fileID: 5035663528787694407, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.007000685
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1999
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 441.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1609.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956455058962496819, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 6561236814349586084, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_Name
-      value: Keypad (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6561236814349586084, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799646515135638243, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: door
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799646515135638243, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-        type: 3}
-      propertyPath: password
-      value: 1234
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a8ee8a0a877c4e64fa1915f8445c3110, type: 3}
---- !u!114 &1924321981 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6049725951583818543, guid: a8ee8a0a877c4e64fa1915f8445c3110,
-    type: 3}
-  m_PrefabInstance: {fileID: 1924321980}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127537572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bcf722d048ac3c499a8083551c86ca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1927016796
@@ -9063,15 +8023,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1941160011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1941160016}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 1941160019}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9081,8 +8041,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1941160019}
-        m_MethodName: Play
+      - m_Target: {fileID: 1941160016}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9828,15 +8788,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2092206362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 136560309}
   GVRClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2092206367}
-        m_MethodName: SendKey
+      - m_Target: {fileID: 2092206370}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9846,8 +8806,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2092206370}
-        m_MethodName: Play
+      - m_Target: {fileID: 2092206367}
+        m_MethodName: SendKey
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10054,7 +9014,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter Code
+  m_text: "Sicherheitshinweis: \nBitte geben sie den dreistelligen Zahlencode ein
+    um die Tuer zu oeffnen"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -10063,8 +9024,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283782629
+  m_fontColor: {r: 0.8962264, g: 0.33397114, b: 0.33397114, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -10082,13 +9043,13 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 72
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -10099,7 +9060,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 55
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -10123,12 +9084,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2096546336}
-    characterCount: 10
+    characterCount: 92
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 13
+    wordCount: 13
     linkCount: 0
-    lineCount: 1
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

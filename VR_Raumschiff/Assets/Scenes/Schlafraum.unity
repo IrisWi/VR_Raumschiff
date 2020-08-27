@@ -487,7 +487,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 35995171}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbbc7981daf7bf740aaad98548942e89, type: 3}
+  m_Script: {fileID: 11500000, guid: e6e2099098b698b488a49947d4a3dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   imgCircle: {fileID: 1336154220}
@@ -495,13 +495,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 35995175}
-        m_MethodName: PlayDelayed
-        m_Mode: 4
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1.8
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2

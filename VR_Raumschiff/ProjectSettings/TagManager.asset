@@ -8,6 +8,9 @@ TagManager:
   - KeypadButton
   - Display
   - Door
+  - Text1
+  - Text2
+  - Text3
   layers:
   - Default
   - TransparentFX

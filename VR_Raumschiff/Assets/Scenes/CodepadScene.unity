@@ -3603,6 +3603,7 @@ MonoBehaviour:
   toggleAngle: 30
   speed: 3
   moveForward: 0
+  footsteps: {fileID: 0}
 --- !u!114 &880899139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3610,7 +3611,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880899137}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f13de8c2e6c0eb34db958f67a2f4f4d3, type: 3}
   m_Name: 

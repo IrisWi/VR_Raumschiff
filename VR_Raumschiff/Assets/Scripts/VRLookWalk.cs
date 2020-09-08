@@ -31,7 +31,7 @@ public class VRLookWalk : MonoBehaviour
         else
         {
             moveForward = false;
-            footsteps.Stop();
+                footsteps.Stop();
         }
 
         if (moveForward)

@@ -81,4 +81,19 @@ public class GVRButton : MonoBehaviour
     {
         SceneManager.LoadScene("Weltall", LoadSceneMode.Single);
     }
+
+    public void SceneToAnfang()
+    {
+        SceneManager.LoadScene("SteuerbordEingagsszene 1", LoadSceneMode.Single);
+    }
+    
+    public void SceneToMenu()
+    {
+        SceneManager.LoadScene("Welcome", LoadSceneMode.Single);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
